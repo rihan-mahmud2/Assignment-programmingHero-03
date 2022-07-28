@@ -1,0 +1,39 @@
+.course-card {
+  background-color: #e8e8e8;
+}
+
+.price-text-color {
+  color: #289bde;
+}
+
+.custome-button {
+  display: inline-block;
+  margin-top: 2rem;
+  background-color: #289bde;
+  padding: 15px 20px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: none;
+}
+
+/* matarials section starts here  */
+
+.materail-info {
+  background-color: #f4fafd;
+}
+
+.materail-course-info-color {
+  color: #777777;
+  font-size: 20px;
+}
+
+/* join section starts here  */
+
+.join-bg-color {
+  background-color: #289bde;
+}
+
+/* feedback section starts here  */
+.filled, .empty{
+  color: #f59e0b;
+}
