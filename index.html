@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
+    <title>Pro FutureIt</title>
 
     <!-- font awesome cdn  -->
 
@@ -78,7 +78,7 @@
       </nav>
 
       <!-- Carousel  -->
-      <section class="container my-5">
+      <section class="container my-5 mx-auto">
         <div
           id="carouselExampleCaptions"
           class="carousel carousel-dark slide"
@@ -185,7 +185,7 @@
     <main>
       <!-- courses setion starts here  -->
       <section class="courses container my-5" style="min-height: 100vh">
-        <div class="text-center">
+        <div class="text-center mb-5">
           <h1 class="fw-bolder">
             Enjoy Courses With hard work and consistency
           </h1>
@@ -227,8 +227,8 @@
         <div class="overflow-hidden text-center">
           <div class="row gy-3">
             <div class="col-md-12 col-lg-6">
-              <div class="border bg-light d-flex align-items-center rounded">
-                <div>
+              <div class="border bg-light d-md-flex align-items-center rounded">
+                <div class="mb-5 mb-md-0">
                   <img
                     src="images/course/course-1.png"
                     class="h-100 me-3"
@@ -246,8 +246,8 @@
               </div>
             </div>
             <div class="col-md-12 col-lg-6">
-              <div class="border bg-light d-flex align-items-center rounded">
-                <div>
+              <div class="border bg-light d-md-flex align-items-center rounded">
+                <div class="mb-5 mb-md-0">
                   <img
                     src="images/course/course-2.png"
                     class="h-100 me-3"
@@ -265,8 +265,8 @@
               </div>
             </div>
             <div class="col-md-12 col-lg-6">
-              <div class="border bg-light d-flex align-items-center rounded">
-                <div>
+              <div class="border bg-light d-md-flex align-items-center rounded">
+                <div class="mb-5 mb-md-0">
                   <img
                     src="images/course/course-3.png"
                     class="h-100 me-3"
@@ -284,8 +284,8 @@
               </div>
             </div>
             <div class="col-md-12 col-lg-6">
-              <div class="border bg-light d-flex align-items-center rounded">
-                <div>
+              <div class="border bg-light d-md-flex align-items-center rounded">
+                <div class="mb-5 mb-md-0">
                   <img
                     src="images/course/course-4.png"
                     class="h-100 me-3"
@@ -303,8 +303,8 @@
               </div>
             </div>
             <div class="col-md-12 col-lg-6">
-              <div class="border bg-light d-flex align-items-center rounded">
-                <div>
+              <div class="border bg-light d-md-flex align-items-center rounded">
+                <div class="mb-5 mb-md-0">
                   <img
                     src="images/course/course-5.png"
                     class="h-100 me-3"
@@ -322,8 +322,8 @@
               </div>
             </div>
             <div class="col-md-12 col-lg-6">
-              <div class="border bg-light d-flex align-items-center rounded">
-                <div>
+              <div class="border bg-light d-md-flex align-items-center rounded">
+                <div class="mb-5 mb-md-0">
                   <img
                     src="images/course/course-6.png"
                     class="h-100 me-3"
@@ -352,7 +352,7 @@
       <section class="container my-5">
         <div class="d-lg-flex">
           <div class="w-100 w-lg-40 text-center">
-            <img src="images/working.png" alt="" />
+            <img src="images/working.png" class="w-100" alt="" />
           </div>
           <div class="w-100 w-lg-60 material-info bg-light p-5">
             <h1 class="fw-bolder">Explore The elearning Institute</h1>
@@ -401,9 +401,57 @@
               get the higest output from here
             </p>
           </div>
-          <button class="bg-white px-4 py-2 text-primary rounded">
-            Register Now
-          </button>
+          <div>
+            <!-- Button trigger modal -->
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              Register Now
+            </button>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      You will be awesome by joining the most supported course
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    Then Why are you waiting? jump to the learning!!!!!
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                      Save changes
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -420,7 +468,7 @@
 
         <!-- sucessful Studnets intor  -->
 
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 gy-3">
           <div class="col">
             <div class="card">
               <img
@@ -719,11 +767,17 @@
 
     <!-- footer starts here  -->
 
-    <footer class="container h-25 bg-dark">
+    <footer class="container bg-dark p-5" style="min-height: 300px">
       <div class="text-white text-center p-5">
         <h1>Pro FutureIt</h1>
         <p>Office 41, Zawaya Buildin, Ghala Muscat, Sultanate of Oman</p>
         <p>Privacy Ploicy | Terms of use</p>
+      </div>
+      <div class="text-white text-center mb-5">
+        <i class="fa-brands fa-square-facebook icon-style"></i>
+        <i class="fa-brands fa-square-instagram icon-style"></i>
+        <i class="fa-brands fa-linkedin-in icon-style"></i>
+        <i class="fa-brands fa-tiktok icon-style"></i>
       </div>
     </footer>
 
